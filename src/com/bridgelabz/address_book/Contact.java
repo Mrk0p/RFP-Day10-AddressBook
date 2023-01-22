@@ -90,6 +90,7 @@ public class Contact {
         this.email = email;
     }
     public void getPersonDetails(){
+
         Scanner input = new Scanner(System.in);
         System.out.print("Enter First Name : ");
         firstName = input.next();

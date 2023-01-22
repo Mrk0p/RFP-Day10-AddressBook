@@ -14,6 +14,7 @@ public class AddressBook {
         System.out.println("Enter the option to edit");
         System.out.println("1.Firstname\t 2.Lastname\t 3.Address\t 4.City\t 5.State\t 6.Zipcode\t 7.Phone number\t 8.Email\t 9.Exit");
         int choice = input1.nextInt();
+
         switch (choice){
             case 1 :
                 System.out.println("Changing First name : ");
